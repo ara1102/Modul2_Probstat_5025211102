@@ -52,11 +52,35 @@ Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahu
 ### 2A
 >Apakah Anda setuju dengan klaim tersebut?
 
+Sebelum Pembuktian: Setuju karena dengan sekilas melihat nilai x̄ terlihat benar, tetapi masih perlu dibuktikan menggunakan p-value
+Setelah Pembuktian: Setuju karena dengan mencari nilai p-value terbukti bahwa klaim tersebut benar
+
 ### 2B
 >Jelaskan maksud dari output yang dihasilkan! 
 
+H0 : μ <= 20000
+H1 : μ > 20000
+
+n = 100
+sampel mean = 23500
+standar deviasi populasi = 3900
+
+Uji yang digunakan adalah uji z, karena standar deviasi populasi diketahui dan n > 30. 
+
+<!-- Gambar -->
+
+Hasil dengan confidence interval default 95% :
+z = 8.9744 dan p-value < 2.2e-16
+H1 : μ > 20000
+
 ### 2C
 >Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
+
+(p-value < 2.2e-16) < (𝛼 = 0,05)
+
+Nilai probabilitas dari uji z (p-value) adalah < 2.2e-16. P-value tersebut lebih kecil dibandingkan significant level 𝛼 = 0,05. Oleh karena itu, hipotesis nol ditolak dan hipotesis alternatif diterima. 
+
+Kesimpulan : Rata-rata lama mobil dikemudikan adalah lebih dari 20.000 kilometer per tahun
 
 ## Soal No 3
 Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan pengambilan keputusan dalam perusahaan tersebut. Selanjutnya didapatkanlah data berikut dari perusahaan saham tersebut.
@@ -131,3 +155,5 @@ Data yang digunakan merupakan hasil eksperimen yang dilakukan untuk mengetahui p
 
 ### 5E
 >Gunakan compact letter display untuk menunjukkan perbedaan signifikan antara uji Anova dan uji Tukey
+
+
