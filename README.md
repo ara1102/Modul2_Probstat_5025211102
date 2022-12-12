@@ -159,20 +159,61 @@ Maka kerjakan atau carilah:
 ### 4A
 >Buatlah masing masing jenis spesies menjadi  3 subjek "Grup" (grup 1, grup 2, grup 3). Lalu gambarkan plot kuantil normal untuk setiap kelompok dan lihat apakah ada outlier utama dalam homogenitas varians.
 
+<!-- Foto -->
+
+<!-- Foto -->
+
+<!-- Foto -->
+
+Ketiga grup tidak memiliki outlier utama
+
 ### 4B
 >Carilah atau periksalah Homogeneity of variances nya. Berapa nilai p yang didapatkan? Apa hipotesis dan kesimpulan yang dapat diambil?
+
+- H0: variansi ketiga populasi sama
+- H1: Ada nilai variansi yang berbeda diantara ketiga populasi
+
+<!-- Foto -->
+
+Bartlett's K-squared = 0.43292 dan p-value = 0.8054
+
+(p-value = 0.8054 ) > (𝛼 = 0,05)
+
+Nilai probabilitas dari uji Bartlett's K-squared(p-value) adalah 0.8054. P-value tersebut lebih besar dibandingkan significant level 𝛼 = 0,05. Oleh karena itu, hipotesis nol diterima. 
+
+Kesimpulan : variansi ketiga populasi sama
 
 ### 4C
 >Untuk uji ANOVA, buatlah model linier dengan Panjang versus Grup dan beri nama model tersebut model 1!
 
+<!-- Foto -->
+
+F = 7.0982 dan p-value = 0.0013
+
 ### 4D
 >Dari Hasil Poin C , Berapakah nilai-p ? Apa yang dapat Anda simpulkan dari H0?
+
+(p-value = 0.0013 ) < (𝛼 = 0,05)
+
+Nilai probabilitas dari uji ANOVA (p-value) adalah 0.0013. P-value tersebut lebih kecil dibandingkan significant level 𝛼 = 0,05. Oleh karena itu, hipotesis nol ditolak dan hipotesis alternatif diterima. 
+
+Kesimpulan : Ada nilai variansi yang berbeda diantara ketiga populasi
 
 ### 4E
 >Verifikasilah jawaban model 1 dengan Post-hooc test TukeyHSD, dari nilai p yang didapatkan apakah satu jenis kucing lebih panjang dari yang lain? Jelaskan!
 
+<!-- Foto -->
+
+Jika perbandingan spesies memiliki p-value > 0.05, kedua spesies memiliki panjang yang sama. Sedangkan, jika  p-value < 0.05, maka spesies memiliki panjang yang berbeda. 
+
+Terlihat dari hasil pada tabel, kucing putih dan kucing oren memiliki panjang sama karena (p-value = 0.8726158) > 0.05. Sedangkan kucing hitam memiliki panjang berbeda dari kucing putih dan kucing oren karena (p-value = 0.0098353) dan (p-value = 0.0020955) < 0.05 . Melalui tabel diff, terlihat bahwa kucing hitam lebih pendek daripada kucing putih dan kucing oren.
+
+Kesimpulan dari model 1 adalah terdapat nilai variansi yang berbeda diantara ketiga populasi. Hal ini sesuai dengan Post-hooc test TukeyHSD yang membuktikan bahwa panjang kucing hitam berbeda dari kucing putih dan kucing oren.
+
 ### 4F
 >Visualisasikan data dengan ggplot2
+
+<!-- Foto -->
 
 ## Soal No 5
 Data yang digunakan merupakan hasil eksperimen yang dilakukan untuk mengetahui pengaruh suhu operasi (100˚C, 125˚C dan 150˚C) dan tiga jenis kaca pelat muka (A, B dan C) pada keluaran cahaya tabung osiloskop. Percobaan dilakukan sebanyak 27 kali dan didapat data sebagai berikut: [Data Hasil Eksperimen](https://drive.google.com/file/d/1aLUOdw_LVJq6VQrQEkuQhZ8FW43FemTJ/view).
