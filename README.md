@@ -240,16 +240,25 @@ Data yang digunakan merupakan hasil eksperimen yang dilakukan untuk mengetahui p
 ### 5A
 >Buatlah plot sederhana untuk visualisasi data 
 
+<!-- Foto -->
+
 ### 5B
 >Lakukan uji ANOVA dua arah untuk 2 faktor
+
+<!-- Foto -->
 
 ### 5C
 >Tampilkan tabel dengan mean dan standar deviasi keluaran cahaya untuk setiap perlakuan (kombinasi kaca pelat muka dan suhu operasi)
 
+<!-- Foto -->
+
 ### 5D
 >Lakukan uji Tukey
+
+<!-- Foto -->
 
 ### 5E
 >Gunakan compact letter display untuk menunjukkan perbedaan signifikan antara uji Anova dan uji Tukey
 
+<!-- Foto -->
 
