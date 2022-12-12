@@ -59,10 +59,13 @@ Setelah Pembuktian: Setuju karena dengan mencari nilai p-value terbukti bahwa kl
 >Jelaskan maksud dari output yang dihasilkan! 
 
 H0 : μ <= 20000
+
 H1 : μ > 20000
 
 n = 100
+
 sampel mean = 23500
+
 standar deviasi populasi = 3900
 
 Uji yang digunakan adalah uji z, karena standar deviasi populasi diketahui dan n > 30. 
@@ -72,7 +75,9 @@ Uji yang digunakan adalah uji z, karena standar deviasi populasi diketahui dan n
 
 
 Hasil dengan confidence interval default 95% :
+
 z = 8.9744 dan p-value < 2.2e-16
+
 H1 : μ > 20000
 
 ### 2C
@@ -99,20 +104,47 @@ Dari data diatas berilah keputusan serta kesimpulan yang didapatkan dari hasil d
 ### 3A
 >H0 dan H1
 
+H0 : μ1 = μ2 
+H1 : μ1 != μ2 
+
 ### 3B
 >Hitung Sampel Statistik
+
+<!-- Foto -->
+
+Spool = 1.473266
 
 ### 3C
 >Lakukan Uji Statistik (df =2)
 
+<!-- Foto -->
+
+t = 1.9267 dan p-value = 0.06049
+
 ### 3D
 >Nilai Kritikal
+
+<!-- Foto -->
+
+df = 2
+Nilai Kritikal Bawah : -4.302653
+Nilai Kritikal Atas : 4.302653
 
 ### 3E
 >Keputusan
 
+nilai kritikal bawah < t < nilai kritikal atas : -4.302653 < 1.9267 < 4.302653
+Nilai t berada di area not reject, terima H0
+
+(p-value = 0.06049 ) > (𝛼 = 0,05)
+p-value lebih basar daripada 𝛼, terima H0
+
 ### 3F
 >Kesimpulan
+
+Berdasarkan keputusan diatas, setelah menggunakan uji statistik dan p-value, hipotesis diterima. 
+
+Kesimpulan : Tidak terdapat perbedaan antara rata-rata kota Bandung dan Bali
 
 ## Soal No 4
 Seorang Peneliti sedang meneliti spesies dari kucing di ITS . Dalam penelitiannya ia mengumpulkan data  tiga spesies kucing yaitu kucing oren, kucing hitam dan kucing putih dengan panjangnya masing-masing. 
