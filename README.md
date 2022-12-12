@@ -25,6 +25,7 @@ Berdasarkan data pada tabel diatas, diketahui kadar saturasi oksigen  dari respo
 >Carilah Standar Deviasi dari data selisih pasangan pengamatan tabel diatas
 
 <!-- FOTO -->
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/103795644/207059985-2683dbbe-e641-4b72-b7f8-edede8f664af.png">
 
 Standar Deviasi = 6.359595
 
@@ -32,6 +33,7 @@ Standar Deviasi = 6.359595
 >Carilah nilai t (p-value)
 
 <!-- FOTO -->
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/103795644/207060146-6325fd2c-01e0-4ad6-a104-9e0f5d57f29f.png">
 
 t = -7.6525 dan p-value = 6.003e-05
 
