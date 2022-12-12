@@ -161,9 +161,24 @@ Maka kerjakan atau carilah:
 
 <!-- Foto -->
 
-<!-- Foto -->
+<figure>
+<figcaption align = "center"><b>Plot Kucing Oren</b></figcaption>
+<img width="529" alt="image" src="https://user-images.githubusercontent.com/103795644/207135006-207338c5-5000-48f9-bed7-411277540f43.png">
+</figure>
 
 <!-- Foto -->
+
+<figure>
+<figcaption align = "center"><b>Plot Kucing Hitam</b></figcaption>
+<img width="527" alt="image" src="https://user-images.githubusercontent.com/103795644/207136063-94076a06-e968-4228-8663-10ad81659e30.png">
+</figure>
+
+<!-- Foto -->
+
+<figure>
+<figcaption align = "center"><b>Plot Kucing Putih</b></figcaption>
+<img width="529" alt="image" src="https://user-images.githubusercontent.com/103795644/207136126-fce49205-b03f-4085-b00d-5b3e66474720.png">
+</figure>
 
 Ketiga grup tidak memiliki outlier utama
 
@@ -174,6 +189,7 @@ Ketiga grup tidak memiliki outlier utama
 - H1: Ada nilai variansi yang berbeda diantara ketiga populasi
 
 <!-- Foto -->
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/103795644/207136819-c72ed9bf-67f1-4fb4-a03c-e09a3c93215b.png">
 
 Bartlett's K-squared = 0.43292 dan p-value = 0.8054
 
@@ -187,6 +203,7 @@ Kesimpulan : variansi ketiga populasi sama
 >Untuk uji ANOVA, buatlah model linier dengan Panjang versus Grup dan beri nama model tersebut model 1!
 
 <!-- Foto -->
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/103795644/207137006-e3a02083-b8aa-426b-8fa2-93aa97bdf3f3.png">
 
 F = 7.0982 dan p-value = 0.0013
 
@@ -203,6 +220,7 @@ Kesimpulan : Ada nilai variansi yang berbeda diantara ketiga populasi
 >Verifikasilah jawaban model 1 dengan Post-hooc test TukeyHSD, dari nilai p yang didapatkan apakah satu jenis kucing lebih panjang dari yang lain? Jelaskan!
 
 <!-- Foto -->
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/103795644/207137145-a5323f84-bd52-466f-93b9-0412257f6ec3.png">
 
 Jika perbandingan spesies memiliki p-value > 0.05, kedua spesies memiliki panjang yang sama. Sedangkan, jika  p-value < 0.05, maka spesies memiliki panjang yang berbeda. 
 
@@ -214,6 +232,7 @@ Kesimpulan dari model 1 adalah terdapat nilai variansi yang berbeda diantara ket
 >Visualisasikan data dengan ggplot2
 
 <!-- Foto -->
+<img width="611" alt="image" src="https://user-images.githubusercontent.com/103795644/207137423-b01eb4dd-77b9-44de-9cc4-98cdb7d58489.png">
 
 ## Soal No 5
 Data yang digunakan merupakan hasil eksperimen yang dilakukan untuk mengetahui pengaruh suhu operasi (100˚C, 125˚C dan 150˚C) dan tiga jenis kaca pelat muka (A, B dan C) pada keluaran cahaya tabung osiloskop. Percobaan dilakukan sebanyak 27 kali dan didapat data sebagai berikut: [Data Hasil Eksperimen](https://drive.google.com/file/d/1aLUOdw_LVJq6VQrQEkuQhZ8FW43FemTJ/view).
