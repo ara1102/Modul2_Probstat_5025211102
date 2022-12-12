@@ -24,11 +24,25 @@ Berdasarkan data pada tabel diatas, diketahui kadar saturasi oksigen  dari respo
 ### 1A
 >Carilah Standar Deviasi dari data selisih pasangan pengamatan tabel diatas
 
+<!-- FOTO -->
+
+Standar Deviasi = 6.359595
+
 ### 1B
 >Carilah nilai t (p-value)
 
+<!-- FOTO -->
+
+t = -7.6525 dan p-value = 6.003e-05
+
 ### 1C
 >Tentukanlah apakah terdapat pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴 jika diketahui tingkat signifikansi 𝛼 = 5% serta H0 : “tidak ada pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴”
+
+(p-value = 6.003e-05) < (𝛼 = 0,05)
+
+Nilai probabilitas dari uji 𝑡 (p-value) adalah 6.003e-05. P-value tersebut lebih kecil dibandingkan significant level 𝛼 = 0,05. Oleh karena itu, hipotesis nol ditolak dan hipotesis alternatif diterima. 
+
+Kesimpulan : Ada pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴
 
 ## Soal No 2
 Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun. Untuk menguji klaim ini, 100 pemilik mobil yang dipilih secara acak diminta untuk mencatat jarak yang mereka tempuh. Jika sampel acak menunjukkan rata-rata 23.500 kilometer dan standar deviasi 3900 kilometer.
