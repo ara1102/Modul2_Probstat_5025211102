@@ -241,24 +241,31 @@ Data yang digunakan merupakan hasil eksperimen yang dilakukan untuk mengetahui p
 >Buatlah plot sederhana untuk visualisasi data 
 
 <!-- Foto -->
+<img width="602" alt="image" src="https://user-images.githubusercontent.com/103795644/207142563-8341e433-14de-4ba5-a1c1-ace6f3206345.png">
 
 ### 5B
 >Lakukan uji ANOVA dua arah untuk 2 faktor
 
 <!-- Foto -->
+<img width="937" alt="image" src="https://user-images.githubusercontent.com/103795644/207143338-ad26de01-9cdc-4028-89b2-740f4c52f635.png">
 
 ### 5C
 >Tampilkan tabel dengan mean dan standar deviasi keluaran cahaya untuk setiap perlakuan (kombinasi kaca pelat muka dan suhu operasi)
 
 <!-- Foto -->
+<img width="938" alt="image" src="https://user-images.githubusercontent.com/103795644/207143731-0d574547-bb19-4fb7-bce6-2c96b97ccba3.png">
 
 ### 5D
 >Lakukan uji Tukey
 
 <!-- Foto -->
+<img width="935" alt="image" src="https://user-images.githubusercontent.com/103795644/207144040-fdca6fc1-afac-4fe7-86be-731d032281ba.png">
+<img width="937" alt="image" src="https://user-images.githubusercontent.com/103795644/207144138-e0db0692-c435-4e72-8b89-58026029e1f4.png">
+<img width="937" alt="image" src="https://user-images.githubusercontent.com/103795644/207144196-bc89c352-cb4f-4779-8a18-04e88750eea1.png">
 
 ### 5E
 >Gunakan compact letter display untuk menunjukkan perbedaan signifikan antara uji Anova dan uji Tukey
 
 <!-- Foto -->
+<img width="936" alt="image" src="https://user-images.githubusercontent.com/103795644/207144400-feaf000e-06da-4b63-a5c8-a2c5995deda7.png">
 
