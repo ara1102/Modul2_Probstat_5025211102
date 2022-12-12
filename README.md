@@ -67,7 +67,9 @@ standar deviasi populasi = 3900
 
 Uji yang digunakan adalah uji z, karena standar deviasi populasi diketahui dan n > 30. 
 
-<!-- Gambar -->
+<!-- Foto -->
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/103795644/207089883-0fbb2e45-b62f-4eea-ad1b-8957f959bbb7.png">
+
 
 Hasil dengan confidence interval default 95% :
 z = 8.9744 dan p-value < 2.2e-16
