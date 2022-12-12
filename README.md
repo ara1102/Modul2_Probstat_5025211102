@@ -52,27 +52,23 @@ Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahu
 ### 2A
 >Apakah Anda setuju dengan klaim tersebut?
 
-Sebelum Pembuktian: Setuju karena dengan sekilas melihat nilai x̄ terlihat benar, tetapi masih perlu dibuktikan menggunakan p-value
-Setelah Pembuktian: Setuju karena dengan mencari nilai p-value terbukti bahwa klaim tersebut benar
+- Sebelum Pembuktian: Setuju karena dengan sekilas melihat nilai x̄ terlihat benar, tetapi masih perlu dibuktikan menggunakan p-value
+- Setelah Pembuktian: Setuju karena dengan mencari nilai p-value terbukti bahwa klaim tersebut benar
 
 ### 2B
 >Jelaskan maksud dari output yang dihasilkan! 
 
-H0 : μ <= 20000
+- H0 : μ <= 20000
+- H1 : μ > 20000
 
-H1 : μ > 20000
-
-n = 100
-
-sampel mean = 23500
-
-standar deviasi populasi = 3900
+- n = 100
+- sampel mean = 23500
+- standar deviasi populasi = 3900
 
 Uji yang digunakan adalah uji z, karena standar deviasi populasi diketahui dan n > 30. 
 
 <!-- Foto -->
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/103795644/207089883-0fbb2e45-b62f-4eea-ad1b-8957f959bbb7.png">
-
 
 Hasil dengan confidence interval default 95% :
 
@@ -104,13 +100,14 @@ Dari data diatas berilah keputusan serta kesimpulan yang didapatkan dari hasil d
 ### 3A
 >H0 dan H1
 
-H0 : μ1 = μ2 
-H1 : μ1 != μ2 
+- H0 : μ1 = μ2 
+- H1 : μ1 != μ2 
 
 ### 3B
 >Hitung Sampel Statistik
 
 <!-- Foto -->
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/103795644/207117991-7a6dc3b9-7fcf-4fd7-b549-74b0e83e1326.png">
 
 Spool = 1.473266
 
@@ -118,6 +115,8 @@ Spool = 1.473266
 >Lakukan Uji Statistik (df =2)
 
 <!-- Foto -->
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/103795644/207118167-3c50aa2a-fa77-4d77-b4b1-769512d16889.png">
+
 
 t = 1.9267 dan p-value = 0.06049
 
@@ -125,18 +124,21 @@ t = 1.9267 dan p-value = 0.06049
 >Nilai Kritikal
 
 <!-- Foto -->
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/103795644/207118307-f907f606-d38c-4a3f-94d2-2e7c16400883.png">
 
 df = 2
-Nilai Kritikal Bawah : -4.302653
-Nilai Kritikal Atas : 4.302653
+- Nilai Kritikal Bawah : -4.302653
+- Nilai Kritikal Atas : 4.302653
 
 ### 3E
 >Keputusan
 
-nilai kritikal bawah < t < nilai kritikal atas : -4.302653 < 1.9267 < 4.302653
+- nilai kritikal bawah < t < nilai kritikal atas : -4.302653 < 1.9267 < 4.302653
+
 Nilai t berada di area not reject, terima H0
 
-(p-value = 0.06049 ) > (𝛼 = 0,05)
+- (p-value = 0.06049 ) > (𝛼 = 0,05)
+
 p-value lebih basar daripada 𝛼, terima H0
 
 ### 3F
